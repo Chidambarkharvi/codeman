@@ -1,0 +1,112 @@
+.upload{
+
+width: 100%;
+background-color: azure;
+padding-top:5px;
+
+
+}
+.upload-types{
+    width: 60%;
+display :flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.close{
+
+float: right;
+position: absolute;
+top:5px;
+right:100px;
+
+}
+
+.container{
+    border: 2px solid rgb(9, 8, 8);
+
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btns{
+    background-color:rgb(64, 138, 241);
+    outline: none;
+    border:none;
+    padding:5px 20px;
+    color:white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.card{
+    width:50%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* background-color:red; */
+    /* padding:40px; */
+    margin-left: auto;
+    margin-right: auto; 
+    /* box-shadow: 8px 9px 20px 10px black; */
+}
+
+.card-content{
+    align-self: flex-start;
+}
+
+.LCS{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width:100%;
+
+}
+
+.events{
+    /* width:80%; */
+    margin-left: auto;
+    margin-right: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+
+.event1 ,.event2{
+    width:50%;
+display: flex;
+flex-direction: row;
+/* justify-content:space-evenly; */
+background-color:red;
+margin-bottom: 10px;
+
+}
+
+.event1 p{
+    width:50%
+}
+
+.event2 p{
+    width:50%
+}
+
+.delete{
+
+    background-color:rgb(241, 64, 64);
+    outline: none;
+    border:none;
+    padding:5px 20px;
+    color:white;
+    font-weight: bold;
+    border-radius: 3px;
+    margin-bottom: 10px;
+
+}
